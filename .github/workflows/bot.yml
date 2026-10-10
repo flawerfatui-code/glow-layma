@@ -1,0 +1,20 @@
+name: روبوت المنتجات التراند
+on:
+  schedule:
+    - cron: '0 8 * * *'
+  workflow_dispatch:
+jobs:
+  update-products:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+      - run: python bot.py
+      - run: |
+          git config --local user.email "bot@glowlayma.com"
+          git config --local user.name "Glow Layma Bot"
+          git add products.json
+          git commit -m "تحديث تراند" || exit 0
+          git push
