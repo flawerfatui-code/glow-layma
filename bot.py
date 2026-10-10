@@ -2,7 +2,7 @@ import json
 import random
 from datetime import datetime
 
-# لائحة منتجات تراند - زدناها 15 منتج باش يبان الموقع عامر
+# لائحة 10 منتجات تراند
 trending_products = [
   {"name": "فستان صيفي تراند 2026 - كيتباع بزاف", "oldPrice": "15.99", "profit": "7.00", "image": "https://img.ltwebstatic.com/images3_pi/2024/07/15/93/1721020000000_thumbnail_600x.jpg", "link": "https://www.shein.com", "badge": "TRENDING"},
   {"name": "طقم رياضي للبنات - الأكثر طلبا", "oldPrice": "18.50", "profit": "8.50", "image": "https://img.ltwebstatic.com/images3_pi/2024/06/20/82/1718900000_thumbnail_600x.jpg", "link": "https://www.shein.com", "badge": "BESTSELLER"},
@@ -16,10 +16,10 @@ trending_products = [
   {"name": "تنورة ميدي أنيقة", "oldPrice": "13.99", "profit": "7.00", "image": "https://img.ltwebstatic.com/images3_pi/2024/05/25/30/1716600000_thumbnail_600x.jpg", "link": "https://www.shein.com", "badge": "NEW"}
 ]
 
-# دابا كيجيب كاع المنتجات ماشي غير 3
-selected = trending_products  # كاع المنتجات
+# كيجيب كاع المنتجات 10
+selected = trending_products
 
-# كيحسب ثمن واحد فقط
+# ثمن واحد فقط مع الربح
 final_products = []
 for p in selected:
     final_price = float(p["oldPrice"]) + float(p["profit"])
@@ -32,8 +32,7 @@ for p in selected:
         "badge": p["badge"]
     })
 
-# كيحفظ
 with open('products.json', 'w', encoding='utf-8') as f:
     json.dump(final_products, f, ensure_ascii=False, indent=2)
 
-print(f"✅ تم تحديث {len(final_products)} منتج بثمن واحد فقط!")
+print(f"✅ تم تحديث {len(final_products)} منتج بثمن واحد!")
