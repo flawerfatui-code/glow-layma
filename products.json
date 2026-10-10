@@ -1,32 +1,82 @@
 [
   {
-    "name": "نظارات شمسية - موضة 2026",
-    "price": "15.00",
-    "oldPrice": "8.99",
-    "profit": "6.01",
-    "image": "https://img.ltwebstatic.com/images3_pi/2024/04/15/82/1713200000_thumbnail_600x.jpg",
-    "link": "https://www.shein.com",
-    "badge": "NEW",
-    "updated": "2026-10-10"
+    "اسم": "فستان صيفي تراند 2026",
+    "سعر": "22.99",
+    "ربح": "7.00",
+    "صورة": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=400",
+    "وصلة": "https://www.shein.com",
+    "badge": "TRENDING"
   },
   {
-    "name": "حقيبة يد عصرية - فيرال فتيك توك",
-    "price": "21.00",
-    "oldPrice": "12.00",
-    "profit": "9.00",
-    "image": "https://img.ltwebstatic.com/images3_pi/2024/05/10/82/1715300000_thumbnail_600x.jpg",
-    "link": "https://www.shein.com",
-    "badge": "VIRAL",
-    "updated": "2026-10-10"
+    "اسم": "طقم رياضي للبنات - الأكثر طلبا",
+    "سعر": "27.00",
+    "ربح": "8.50",
+    "صورة": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=400",
+    "وصلة": "https://www.shein.com",
+    "badge": "BESTSELLER"
   },
   {
-    "name": "طقم رياضي للبنات - الأكثر طلبا",
-    "price": "27.00",
-    "oldPrice": "18.50",
-    "profit": "8.50",
-    "image": "https://img.ltwebstatic.com/images3_pi/2024/06/20/82/1718900000_thumbnail_600x.jpg",
-    "link": "https://www.shein.com",
-    "badge": "BESTSELLER",
-    "updated": "2026-10-10"
+    "اسم": "حقيبة يد عصرية - فيرال",
+    "سعر": "21.00",
+    "ربح": "9.00",
+    "صورة": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=400",
+    "وصلة": "https://www.shein.com",
+    "badge": "VIRAL"
+  },
+  {
+    "اسم": "نظارات شمسية - موضة 2026",
+    "سعر": "15.00",
+    "ربح": "6.01",
+    "صورة": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=400",
+    "وصلة": "https://www.shein.com",
+    "badge": "NEW"
+  },
+  {
+    "اسم": "سنيكرز أبيض - كيتباع كل دقيقة",
+    "سعر": "32.00",
+    "ربح": "10.00",
+    "صورة": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400",
+    "وصلة": "https://www.shein.com",
+    "badge": "HOT"
+  },
+  {
+    "اسم": "بلوزة كروب توب ترند",
+    "سعر": "15.99",
+    "ربح": "6.00",
+    "صورة": "https://images.unsplash.com/photo-1554568218-0f1715e72254?w=400",
+    "وصلة": "https://www.shein.com",
+    "badge": "TRENDING"
+  },
+  {
+    "اسم": "جيب جينز قصير - صيف 2026",
+    "سعر": "22.00",
+    "ربح": "7.50",
+    "صورة": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=400",
+    "وصلة": "https://www.shein.com",
+    "badge": "HOT"
+  },
+  {
+    "اسم": "بيجاما حرير فاخرة",
+    "سعر": "24.99",
+    "ربح": "8.00",
+    "صورة": "https://images.unsplash.com/photo-1618354691792-d1d42acfd860?w=400",
+    "وصلة": "https://www.shein.com",
+    "badge": "BESTSELLER"
+  },
+  {
+    "اسم": "إكسسوارات شعر لامعة",
+    "سعر": "10.99",
+    "ربح": "5.00",
+    "صورة": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=400",
+    "وصلة": "https://www.shein.com",
+    "badge": "VIRAL"
+  },
+  {
+    "اسم": "تنورة ميدي أنيقة",
+    "سعر": "20.99",
+    "ربح": "7.00",
+    "صورة": "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=400",
+    "وصلة": "https://www.shein.com",
+    "badge": "NEW"
   }
 ]
