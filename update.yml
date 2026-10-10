@@ -1,0 +1,21 @@
+name: Update Products
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 */6 * * *'
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - run: pip install requests
+      - run: python bot.py
+      - run: |
+          git config --global user.name "bot"
+          git config --global user.email "bot@bot.com"
+          git add products.json
+          git commit -m "update products" || exit 0
+          git push
