@@ -25,7 +25,9 @@ header{background:linear-gradient(135deg,#81a365,#82c7ab);color:#fff;padding:20p
 fetch('products.json?v='+Date.now()).then(r=>r.json()).then(data=>{
 let h='';
 data.forEach(p=>{
-let img=p['صورة']||p.image||'';let name=p['اسم']||p.name||'منتج';let price=p['سعر']||p.price||'19';let oldp=p['السعر القديم']||p.old_price||'';let profit=p['ربح']||p.profit||'9';let link=p['وصلة']||p.link||'#';
+let imgRaw=p['صورة']||p.image||''; 
+let img=imgRaw ? `https://images.weserv.nl/?url=${encodeURIComponent(imgRaw)}&w=400` : '';
+let name=p['اسم']||p.name||'منتج';let price=p['سعر']||p.price||'19';let oldp=p['السعر القديم']||p.old_price||'';let profit=p['ربح']||p.profit||'9';let link=p['وصلة']||p.link||'#';
 h+=`<div class="card"><img src="${img}" alt="${name}"><h3>${name}</h3><div><span class="price">${price} $</span> <span class="old">${oldp} $</span></div><div class="profit">ربحك: ${profit} $</div><a class="btn" href="${link}" target="_blank">اشتري الآن</a></div>`;
 });
 document.getElementById('products').innerHTML=h;
