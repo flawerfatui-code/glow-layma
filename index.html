@@ -59,8 +59,12 @@ let imgs=cur['صور']||cur.صور||[cur['صورة']||cur.صورة];
 document.getElementById('mainImg').src=imgs[0];
 let g='';imgs.forEach((im,idx)=>{g+=`<img src="${im}" class="${idx==0?'active':''}" onclick="document.getElementById('mainImg').src='${im}';document.querySelectorAll('.gallery img').forEach(x=>x.classList.remove('active'));this.classList.add('active')">`;});
 document.getElementById('gallery').innerHTML=g;
-let v=cur['فيديو']||cur.فيديو||'';document.getElementById('videoBox').innerHTML=v?`<iframe class="video" src="${v}" allowfullscreen></iframe>`:'';
-document.getElementById('modal').style.display='block';
+let v=cur['فيديو']||cur.فيديو||''; 
+// ما نوريوش فيديو الا كان حقيقي وماشي Rick Astley
+if(v && !v.includes('dQw4w9WgXcQ') && !v.includes('9bZkp7q19f0')){
+  document.getElementById('videoBox').innerHTML=`<iframe class="video" src="${v}" allowfullscreen></iframe>`;
+} else {
+  document.getElementById('videoBox').innerHTML='';
 }
 function closeM(){document.getElementById('modal').style.display='none';}
 function sendOrder(){
