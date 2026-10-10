@@ -1,0 +1,26 @@
+[
+  {
+    "name": "فستان صيفي عصري - الأكثر مبيعا",
+    "price": "18.99",
+    "oldPrice": "13.99",
+    "profit": "5.00",
+    "image": "https://img.ltwebstatic.com/images3_pi/2024/06/13/82/17182611661a5d6b7b1b5d6c7d8e9f0a1b2c3d4e5_thumbnail_600x.jpg",
+    "link": "https://www.shein.com"
+  },
+  {
+    "name": "جاكيت أنيق للخريف",
+    "price": "27.50",
+    "oldPrice": "19.99",
+    "profit": "7.51",
+    "image": "https://img.ltwebstatic.com/images3_pi/2024/05/20/82/1716200000_thumbnail_600x.jpg",
+    "link": "https://www.shein.com"
+  },
+  {
+    "name": "حقيبة يد عصرية",
+    "price": "22.00",
+    "oldPrice": "15.00",
+    "profit": "7.00",
+    "image": "https://img.ltwebstatic.com/images3_pi/2024/04/10/82/1712700000_thumbnail_600x.jpg",
+    "link": "https://www.shein.com"
+  }
+]
