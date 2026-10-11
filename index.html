@@ -7,94 +7,60 @@
 <style>
 *{margin:0;padding:0;box-sizing:border-box;font-family:system-ui}
 body{background:#fff5f7}
-.header{background:linear-gradient(135deg,#a8e6a3,#f8c8dc);padding:25px;text-align:center;color:#fff;font-size:28px;font-weight:bold}
-.container{max-width:1100px;margin:0 auto;padding:15px;display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px}
-.card{background:#fff;border-radius:15px;overflow:hidden;box-shadow:0 2px 10px rgba(0,0,0,0.08);cursor:pointer}
-.card img{width:100%;height:180px;object-fit:cover}
-.card-body{padding:10px}
-.card-title{font-size:14px;font-weight:bold;height:38px;overflow:hidden}
-.card-price{color:#e91e63;font-weight:bold;margin-top:5px}
-.badge{background:#4caf50;color:#fff;font-size:11px;padding:2px 6px;border-radius:10px}
-.modal{display:none;position:fixed;inset:0;background:rgba(0,0,0,0.7);z-index:1000;padding:10px;overflow:auto}
-.modal-content{background:#fff;border-radius:20px;max-width:500px;margin:20px auto;padding:15px}
-.main-img{width:100%;height:350px;object-fit:cover;border-radius:15px}
-.thumbs{display:flex;gap:8px;margin-top:10px;overflow:auto}
-.thumbs img{width:70px;height:70px;border-radius:10px;object-fit:cover;border:2px solid transparent;cursor:pointer}
+.header{background:linear-gradient(135deg,#a8e6a3,#f8c8dc);padding:20px;text-align:center;color:#fff;font-size:24px;font-weight:bold}
+.container{max-width:1100px;margin:auto;padding:12px;display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px}
+.card{background:#fff;border-radius:14px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.07);cursor:pointer}
+.card img{width:100%;height:190px;object-fit:cover}
+.card-body{padding:9px}
+.card-title{font-size:13px;font-weight:bold;height:36px;overflow:hidden}
+.card-price{color:#e91e63;font-weight:bold;margin-top:4px;font-size:15px}
+.modal{display:none;position:fixed;inset:0;background:rgba(0,0,0,0.8);z-index:100;padding:10px;overflow:auto}
+.modal-content{background:#fff;border-radius:18px;max-width:500px;margin:15px auto;padding:14px;position:relative}
+.main-img{width:100%;height:380px;object-fit:cover;border-radius:14px;background:#f5f5f5}
+.thumbs{display:flex;gap:7px;margin-top:10px;overflow:auto}
+.thumbs img{width:70px;height:70px;border-radius:9px;object-fit:cover;border:3px solid transparent;cursor:pointer;flex-shrink:0}
 .thumbs img.active{border-color:#e91e63}
-.btn{width:100%;padding:12px;background:#e91e63;color:#fff;border:none;border-radius:12px;font-size:16px;font-weight:bold;margin-top:12px;cursor:pointer}
+.close{position:absolute;top:8px;left:12px;font-size:26px;background:#fff;width:34px;height:34px;border-radius:50%;display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,0.2)}
+.btn{width:100%;padding:13px;background:#25D366;color:#fff;border:none;border-radius:11px;font-size:16px;font-weight:bold;margin-top:12px;cursor:pointer}
 </style>
 </head>
 <body>
-<div class="header">Glow Layma - منتجات ترند 2026</div>
-<div id="loading" style="text-align:center;padding:40px">تحميل...</div>
+<div class="header">Glow Layma - منتجات ترند 2026 ✨</div>
 <div class="container" id="grid"></div>
-
-<div class="modal" id="modal">
+<div class="modal" id="modal" onclick="if(event.target==this) this.style.display='none'">
   <div class="modal-content">
-    <div style="text-align:left"><span onclick="document.getElementById('modal').style.display='none'" style="font-size:24px;cursor:pointer">✕</span></div>
+    <div class="close" onclick="document.getElementById('modal').style.display='none'">✕</div>
     <img id="mImg" class="main-img" src="">
     <div class="thumbs" id="mThumbs"></div>
     <h3 id="mName" style="margin-top:12px"></h3>
-    <div id="mRate" style="margin:6px 0"></div>
-    <div id="mPrice" style="font-size:22px;color:#e91e63;font-weight:bold"></div>
-    <p id="mDesc" style="margin-top:10px;color:#555;line-height:1.6"></p>
-    <button class="btn" onclick="window.open('https://cjdropshipping.com','_blank')">اطلبي الآن على CJ</button>
+    <div id="mPrice" style="font-size:22px;color:#e91e63;font-weight:bold;margin:6px 0"></div>
+    <div id="mDesc" style="background:#fff5f7;padding:10px;border-radius:10px;line-height:1.6;color:#444;font-size:14px"></div>
+    <button class="btn" id="waBtn">اطلبي واتساب 💬</button>
   </div>
 </div>
-
 <script>
-// منتجات احتياطية - كيبانو حتى إلا products.json خاوي
-const fallback = [
-  {اسم:"Glow Light - إضاءة ترند",صورة:"https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=400",صور:["https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=600","https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=600","https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600","https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=600"],سعر:"24.99",ربح:"11.00",وصف:"إضاءة غروب الشمس 16 لون - ترند تيك توك",تقييم:"⭐ 4.9"},
-  {اسم:"Chunky Cardigan - كارديجان",صورة:"https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=400",صور:["https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=600","https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=600","https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=600","https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=600"],سعر:"28.99",ربح:"13.00",وصف:"كارديجان صوف دافئ موضة 2026",تقييم:"⭐ 4.8"},
-  {اسم:"Puff Dress - فستان",صورة:"https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=400",صور:["https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=600","https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=600","https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=600","https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=600"],سعر:"32.99",ربح:"15.00",وصف:"فستان رومانسي cottagecore",تقييم:"⭐ 4.7"},
-  {اسم:"Wide Jeans",صورة:"https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=400",صور:["https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=600","https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=600"],سعر:"29.99",ربح:"14.00",وصف:"جينز واسع موضة",تقييم:"⭐ 4.6"},
-  {اسم:"LED Mirror",صورة:"https://images.unsplash.com/photo-1522338140262-f46f5913618a?w=400",صور:["https://images.unsplash.com/photo-1522338140262-f46f5913618a?w=600"],سعر:"35.99",ربح:"16.00",وصف:"مرايا مكياج LED",تقييم:"⭐ 4.9"}
-];
-
-let allProducts = [];
-
-function showProducts(list){
-  document.getElementById('loading').style.display='none';
-  const grid=document.getElementById('grid');
-  grid.innerHTML='';
-  list.forEach((p,i)=>{
-    const div=document.createElement('div');
-    div.className='card';
-    div.innerHTML=`<img src="${p.صورة}"><div class="card-body"><div class="card-title">${p.اسم}</div><div class="card-price">$${p.سعر} <span class="badge">ربح $${p.ربح}</span></div><div style="font-size:12px">${p.تقييم||''}</div></div>`;
-    div.onclick=()=>openModal(i);
-    grid.appendChild(div);
-  });
+let all=[]
+function show(list){
+ const g=document.getElementById('grid'); g.innerHTML='';
+ list.forEach((p,i)=>{
+  const d=document.createElement('div'); d.className='card';
+  d.innerHTML=`<img src="${p.صورة}"><div class="card-body"><div class="card-title">${p.اسم}</div><div class="card-price">${p.سعر} درهم</div><div style="font-size:11px;color:#888">${p.تقييم}</div></div>`;
+  d.onclick=()=>openM(i); g.appendChild(d);
+ });
 }
-
-function openModal(i){
-  const p=allProducts[i];
-  document.getElementById('modal').style.display='block';
-  document.getElementById('mImg').src=p.صور[0]||p.صورة;
-  document.getElementById('mName').innerText=p.اسم;
-  document.getElementById('mRate').innerText=p.تقييم||'';
-  document.getElementById('mPrice').innerText=`$${p.سعر} - ربح $${p.ربح}`;
-  document.getElementById('mDesc').innerText=p.وصف||'';
-  const th=document.getElementById('mThumbs');
-  th.innerHTML='';
-  (p.صور||[p.صورة]).forEach((src,idx)=>{
-    const im=document.createElement('img');
-    im.src=src;
-    if(idx==0) im.classList.add('active');
-    im.onclick=()=>{document.getElementById('mImg').src=src; th.querySelectorAll('img').forEach(x=>x.classList.remove('active')); im.classList.add('active');};
-    th.appendChild(im);
-  });
+function openM(i){
+ const p=all[i]; document.getElementById('modal').style.display='block';
+ document.getElementById('mImg').src=p.صور[0]; document.getElementById('mName').innerText=p.اسم;
+ document.getElementById('mPrice').innerText=p.سعر+' درهم'; document.getElementById('mDesc').innerText=p.وصف;
+ document.getElementById('waBtn').onclick=()=>window.open('https://wa.me/212600000000?text=بغيت '+encodeURIComponent(p.اسم),'_blank');
+ const th=document.getElementById('mThumbs'); th.innerHTML='';
+ p.صور.forEach((s,idx)=>{
+  const im=document.createElement('img'); im.src=s; if(idx==0) im.classList.add('active');
+  im.onclick=()=>{document.getElementById('mImg').src=s; th.querySelectorAll('img').forEach(x=>x.classList.remove('active')); im.classList.add('active');};
+  th.appendChild(im);
+ });
 }
-
-fetch('products.json?v='+Date.now())
-  .then(r=>r.json())
-  .then(data=>{
-    if(data && data.length>0){ allProducts=data; showProducts(data); }
-    else { allProducts=fallback; showProducts(fallback); }
-  })
-  .catch(()=>{
-    allProducts=fallback; showProducts(fallback);
-  });
+fetch('products.json?v='+Date.now()).then(r=>r.json()).then(d=>{all=d; show(d);});
 </script>
 </body>
 </html>
