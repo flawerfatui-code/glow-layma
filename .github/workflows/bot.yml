@@ -3,7 +3,7 @@ name: update
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */6 * * *' # كيخدم كل 6 ساعات أوتوماتيك
+    - cron: '0 */6 * * *'
 
 jobs:
   update:
@@ -18,8 +18,8 @@ jobs:
       - run: pip install requests
       - run: python bot.py
       - run: |
-          git config user.name "trend-bot"
+          git config user.name "cj-bot"
           git config user.email "bot@glow.com"
           git add products.json
-          git commit -m "🤖 روبوت جاب منتجات ترند جديدة - $(date)" || echo "no changes"
+          git commit -m "🤖 CJ bot - منتجات ترند جديدة" || echo "no changes"
           git push
