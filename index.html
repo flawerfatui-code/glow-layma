@@ -1,79 +1,100 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
-<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Glow Layma</title>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Glow Layma - منتجات ترند 2026</title>
 <style>
-*{box-sizing:border-box;margin:0;padding:0;font-family:Tahoma}
-body{background:#fff0f6}
-header{background:linear-gradient(135deg,#81a365,#82c7ab);color:#fff;padding:20px;text-align:center}
-.products{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:15px;padding:20px}
-.card{background:#fff;border-radius:15px;overflow:hidden;box-shadow:0 2px 10px rgba(0,0,0,.1);text-align:center;padding-bottom:10px;cursor:pointer}
-.card img{width:100%;height:200px;object-fit:cover}
-.card h3{font-size:14px;margin:8px;height:35px;overflow:hidden}
-.price{color:#e91e63;font-weight:bold}
-.profit{background:#e8f5e9;color:#2e7d32;padding:3px 8px;border-radius:10px;font-size:12px}
-.btn{background:#81a365;color:#fff;padding:10px;margin:10px;border-radius:25px;border:none;width:90%;cursor:pointer}
-#modal{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.7);z-index:999;overflow-y:auto}
-.modal-box{background:#fff;width:95%;max-width:500px;margin:20px auto;border-radius:20px;padding:15px;position:relative}
-.gallery{display:flex;gap:8px;overflow-x:auto;padding:10px 0}
-.gallery img{width:80px;height:80px;object-fit:cover;border-radius:10px;border:2px solid transparent;cursor:pointer}
-.gallery img.active{border-color:#e91e63}
-#mainImg{width:100%;height:350px;object-fit:cover;border-radius:15px}
-.video{width:100%;height:250px;border-radius:15px;margin:10px 0;border:none}
-.close{position:absolute;left:15px;top:10px;font-size:26px;cursor:pointer}
-input{width:100%;padding:12px;margin:6px 0;border:1px solid #ddd;border-radius:10px}
-</style></head>
+*{margin:0;padding:0;box-sizing:border-box;font-family:system-ui}
+body{background:#fff5f7}
+.header{background:linear-gradient(135deg,#a8e6a3,#f8c8dc);padding:25px;text-align:center;color:#fff;font-size:28px;font-weight:bold}
+.container{max-width:1100px;margin:0 auto;padding:15px;display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px}
+.card{background:#fff;border-radius:15px;overflow:hidden;box-shadow:0 2px 10px rgba(0,0,0,0.08);cursor:pointer}
+.card img{width:100%;height:180px;object-fit:cover}
+.card-body{padding:10px}
+.card-title{font-size:14px;font-weight:bold;height:38px;overflow:hidden}
+.card-price{color:#e91e63;font-weight:bold;margin-top:5px}
+.badge{background:#4caf50;color:#fff;font-size:11px;padding:2px 6px;border-radius:10px}
+.modal{display:none;position:fixed;inset:0;background:rgba(0,0,0,0.7);z-index:1000;padding:10px;overflow:auto}
+.modal-content{background:#fff;border-radius:20px;max-width:500px;margin:20px auto;padding:15px}
+.main-img{width:100%;height:350px;object-fit:cover;border-radius:15px}
+.thumbs{display:flex;gap:8px;margin-top:10px;overflow:auto}
+.thumbs img{width:70px;height:70px;border-radius:10px;object-fit:cover;border:2px solid transparent;cursor:pointer}
+.thumbs img.active{border-color:#e91e63}
+.btn{width:100%;padding:12px;background:#e91e63;color:#fff;border:none;border-radius:12px;font-size:16px;font-weight:bold;margin-top:12px;cursor:pointer}
+</style>
+</head>
 <body>
-<header><h1>Glow Layma - منتجات ترند 2026</h1></header>
-<div id="products" class="products">تحميل...</div>
-<div id="modal"><div class="modal-box">
-<span class="close" onclick="closeM()">&times;</span>
-<img id="mainImg" src="">
-<div class="gallery" id="gallery"></div>
-<h2 id="mName"></h2>
-<p id="mPrice" style="color:#e91e63;font-weight:bold;font-size:20px"></p>
-<p id="mRating" style="color:#ff9800"></p>
-<p id="mDesc" style="margin:10px 0;line-height:1.6"></p>
-<div id="videoBox"></div>
-<h3>اطلبي الآن:</h3>
-<input id="cName" placeholder="الاسم الكامل">
-<input id="cPhone" placeholder="رقم الواتساب">
-<input id="cCity" placeholder="المدينة والعنوان">
-<button class="btn" onclick="sendOrder()">تأكيد عبر واتساب</button>
-</div></div>
+<div class="header">Glow Layma - منتجات ترند 2026</div>
+<div id="loading" style="text-align:center;padding:40px">تحميل...</div>
+<div class="container" id="grid"></div>
+
+<div class="modal" id="modal">
+  <div class="modal-content">
+    <div style="text-align:left"><span onclick="document.getElementById('modal').style.display='none'" style="font-size:24px;cursor:pointer">✕</span></div>
+    <img id="mImg" class="main-img" src="">
+    <div class="thumbs" id="mThumbs"></div>
+    <h3 id="mName" style="margin-top:12px"></h3>
+    <div id="mRate" style="margin:6px 0"></div>
+    <div id="mPrice" style="font-size:22px;color:#e91e63;font-weight:bold"></div>
+    <p id="mDesc" style="margin-top:10px;color:#555;line-height:1.6"></p>
+    <button class="btn" onclick="window.open('https://cjdropshipping.com','_blank')">اطلبي الآن على CJ</button>
+  </div>
+</div>
+
 <script>
-let all=[],cur=null;
-fetch('products.json?v='+Date.now()).then(r=>r.json()).then(d=>{
-all=d;let h='';
-d.forEach((p,i)=>{
-let img=p['صورة']||p.صورة||''; let name=p['اسم']||p.اسم;let price=p['سعر']||p.سعر;
-h+=`<div class="card" onclick="openM(${i})"><img src="${img}"><h3>${name}</h3><div class="price">${price} $</div><div class="profit">ربحك: ${p['ربح']||p.ربح} $</div><button class="btn">شوفي التفاصيل</button></div>`;
-});
-document.getElementById('products').innerHTML=h;
-});
-function openM(i){
-cur=all[i];document.getElementById('mName').innerText=cur['اسم']||cur.اسم;
-document.getElementById('mPrice').innerText=(cur['سعر']||cur.سعر)+' $';
-document.getElementById('mRating').innerText=cur['تقييم']||'⭐ 4.8';
-document.getElementById('mDesc').innerText=cur['وصف']||cur.وصف||'';
-let imgs=cur['صور']||cur.صور||[cur['صورة']||cur.صورة];
-document.getElementById('mainImg').src=imgs[0];
-let g='';imgs.forEach((im,idx)=>{g+=`<img src="${im}" class="${idx==0?'active':''}" onclick="document.getElementById('mainImg').src='${im}';document.querySelectorAll('.gallery img').forEach(x=>x.classList.remove('active'));this.classList.add('active')">`;});
-document.getElementById('gallery').innerHTML=g;
-let v=cur['فيديو']||cur.فيديو||''; 
-// ما نوريوش فيديو الا كان حقيقي وماشي Rick Astley
-if(v && !v.includes('dQw4w9WgXcQ') && !v.includes('9bZkp7q19f0')){
-  document.getElementById('videoBox').innerHTML=`<iframe class="video" src="${v}" allowfullscreen></iframe>`;
-} else {
-  document.getElementById('videoBox').innerHTML='';
+// منتجات احتياطية - كيبانو حتى إلا products.json خاوي
+const fallback = [
+  {اسم:"Glow Light - إضاءة ترند",صورة:"https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=400",صور:["https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=600","https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=600","https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600","https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=600"],سعر:"24.99",ربح:"11.00",وصف:"إضاءة غروب الشمس 16 لون - ترند تيك توك",تقييم:"⭐ 4.9"},
+  {اسم:"Chunky Cardigan - كارديجان",صورة:"https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=400",صور:["https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=600","https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=600","https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=600","https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=600"],سعر:"28.99",ربح:"13.00",وصف:"كارديجان صوف دافئ موضة 2026",تقييم:"⭐ 4.8"},
+  {اسم:"Puff Dress - فستان",صورة:"https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=400",صور:["https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=600","https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=600","https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=600","https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=600"],سعر:"32.99",ربح:"15.00",وصف:"فستان رومانسي cottagecore",تقييم:"⭐ 4.7"},
+  {اسم:"Wide Jeans",صورة:"https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=400",صور:["https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=600","https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=600"],سعر:"29.99",ربح:"14.00",وصف:"جينز واسع موضة",تقييم:"⭐ 4.6"},
+  {اسم:"LED Mirror",صورة:"https://images.unsplash.com/photo-1522338140262-f46f5913618a?w=400",صور:["https://images.unsplash.com/photo-1522338140262-f46f5913618a?w=600"],سعر:"35.99",ربح:"16.00",وصف:"مرايا مكياج LED",تقييم:"⭐ 4.9"}
+];
+
+let allProducts = [];
+
+function showProducts(list){
+  document.getElementById('loading').style.display='none';
+  const grid=document.getElementById('grid');
+  grid.innerHTML='';
+  list.forEach((p,i)=>{
+    const div=document.createElement('div');
+    div.className='card';
+    div.innerHTML=`<img src="${p.صورة}"><div class="card-body"><div class="card-title">${p.اسم}</div><div class="card-price">$${p.سعر} <span class="badge">ربح $${p.ربح}</span></div><div style="font-size:12px">${p.تقييم||''}</div></div>`;
+    div.onclick=()=>openModal(i);
+    grid.appendChild(div);
+  });
 }
-function closeM(){document.getElementById('modal').style.display='none';}
-function sendOrder(){
-let n=document.getElementById('cName').value,ph=document.getElementById('cPhone').value,ci=document.getElementById('cCity').value;
-if(!n||!ph||!ci){alert('عمري المعلومات');return;}
-let msg=`طلب جديد Glow Layma:%0A🛍️ ${cur['اسم']||cur.اسم}%0A💰 ${cur['سعر']||cur.سعر} $%0A👤 ${n}%0A📱 ${ph}%0A📍 ${ci}`;
-window.open(`https://wa.me/212600000000?text=${msg}`,'_blank'); // بدلي النمرة
-closeM();
+
+function openModal(i){
+  const p=allProducts[i];
+  document.getElementById('modal').style.display='block';
+  document.getElementById('mImg').src=p.صور[0]||p.صورة;
+  document.getElementById('mName').innerText=p.اسم;
+  document.getElementById('mRate').innerText=p.تقييم||'';
+  document.getElementById('mPrice').innerText=`$${p.سعر} - ربح $${p.ربح}`;
+  document.getElementById('mDesc').innerText=p.وصف||'';
+  const th=document.getElementById('mThumbs');
+  th.innerHTML='';
+  (p.صور||[p.صورة]).forEach((src,idx)=>{
+    const im=document.createElement('img');
+    im.src=src;
+    if(idx==0) im.classList.add('active');
+    im.onclick=()=>{document.getElementById('mImg').src=src; th.querySelectorAll('img').forEach(x=>x.classList.remove('active')); im.classList.add('active');};
+    th.appendChild(im);
+  });
 }
+
+fetch('products.json?v='+Date.now())
+  .then(r=>r.json())
+  .then(data=>{
+    if(data && data.length>0){ allProducts=data; showProducts(data); }
+    else { allProducts=fallback; showProducts(fallback); }
+  })
+  .catch(()=>{
+    allProducts=fallback; showProducts(fallback);
+  });
 </script>
 </body>
 </html>
