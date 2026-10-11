@@ -1,132 +1,80 @@
 [
   {
-    "اسم": "Glow Sunset Lamp",
-    "صورة": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=600&h=600&fit=crop",
-    "صور": [
-      "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=600&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=600&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?w=600&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1524485823-a9ad82d59013?w=600&h=600&fit=crop"
-    ],
-    "سعر": "249",
-    "وصف": "إضاءة غروب الشمس الأصلية 16 لون مع ريموت - كتخلي الغرفة جنة وكتصور تيك توك احترافي 🔥\n\n✅ جودة عالية\n🚚 توصيل مجاني لجميع المدن\n💵 دفع عند الاستلام",
-    "تقييم": "⭐ 4.6 (2968 تقييم)"
-  },
-  {
-    "اسم": "Cloud LED Lamp",
-    "صورة": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=600&h=600&fit=crop",
-    "صور": [
-      "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=600&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=600&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1517991104123-1d56a6e81ed9?w=600&h=600&fit=crop"
-    ],
-    "سعر": "199",
-    "وصف": "سحابة مضيئة - ديكور غرفة نوم حالم ☁️ كتضوي بالليل\n\n✅ جودة عالية\n🚚 توصيل مجاني لجميع المدن\n💵 دفع عند الاستلام",
-    "تقييم": "⭐ 4.8 (2722 تقييم)"
-  },
-  {
-    "اسم": "Chunky Cardigan",
+    "اسم": "Chunky Cardigan - كارديجان صوف",
     "صورة": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=600&h=600&fit=crop",
     "صور": [
       "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=600&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1516762689617-e1cffcef479d?w=600&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=600&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=600&h=600&fit=crop"
+      "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=600&h=600&fit=crop&crop=top",
+      "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=600&h=600&fit=crop&crop=bottom",
+      "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=600&h=600&fit=crop&crop=center&zoom=1.2"
     ],
     "سعر": "289",
-    "وصف": "كارديجان صوف oversize دافئ - موضة شتاء 2026 🧶 مقاس واحد\n\n✅ جودة عالية\n🚚 توصيل مجاني لجميع المدن\n💵 دفع عند الاستلام",
-    "تقييم": "⭐ 4.9 (2845 تقييم)"
+    "وصف": "كارديجان صوف oversize دافئ - موضة شتاء 2026 🧶 مقاس واحد",
+    "تقييم": "⭐ 4.8"
   },
   {
-    "اسم": "Wide Leg Jeans",
+    "اسم": "Glow Sunset Lamp - إضاءة غروب",
+    "صورة": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=600&h=600&fit=crop",
+    "صور": [
+      "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=600&h=600&fit=crop&crop=top",
+      "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=600&h=600&fit=crop&crop=bottom",
+      "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=600&h=600&fit=crop&crop=center&zoom=1.2"
+    ],
+    "سعر": "249",
+    "وصف": "إضاءة غروب الشمس الأصلية 16 لون مع ريموت - ترند تيك توك 🔥",
+    "تقييم": "⭐ 4.8"
+  },
+  {
+    "اسم": "Wide Leg Jeans - جينز واسع",
     "صورة": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=600&h=600&fit=crop",
     "صور": [
       "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=600&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1542272604-787c3835535d?w=600&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1582418702059-c141af2a3552?w=600&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=600&h=600&fit=crop"
+      "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=600&h=600&fit=crop&crop=top",
+      "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=600&h=600&fit=crop&crop=bottom",
+      "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=600&h=600&fit=crop&crop=center&zoom=1.2"
     ],
     "سعر": "299",
-    "وصف": "جينز واسع Wide Leg - ترند 2026 كيجي مع كلشي 👖\n\n✅ جودة عالية\n🚚 توصيل مجاني لجميع المدن\n💵 دفع عند الاستلام",
-    "تقييم": "⭐ 4.8 (2722 تقييم)"
-  },
-  {
-    "اسم": "Puff Dress",
-    "صورة": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=600&h=600&fit=crop",
-    "صور": [
-      "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=600&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=600&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=600&h=600&fit=crop"
-    ],
-    "سعر": "329",
-    "وصف": "فستان puff رومانسي cottagecore 👗 للخرجات\n\n✅ جودة عالية\n🚚 توصيل مجاني لجميع المدن\n💵 دفع عند الاستلام",
-    "تقييم": "⭐ 4.8 (2230 تقييم)"
-  },
-  {
-    "اسم": "LED Vanity Mirror",
-    "صورة": "https://images.unsplash.com/photo-1522338140262-f46f5913618a?w=600&h=600&fit=crop",
-    "صور": [
-      "https://images.unsplash.com/photo-1522338140262-f46f5913618a?w=600&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=600&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1522338140262-f46f5913618a?w=600&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1583209814683-c023dd97f526?w=600&h=600&fit=crop"
-    ],
-    "سعر": "359",
-    "وصف": "مرايا مكياج بإضاءة LED 3 ألوان 💡 احترافية\n\n✅ جودة عالية\n🚚 توصيل مجاني لجميع المدن\n💵 دفع عند الاستلام",
-    "تقييم": "⭐ 4.7 (3091 تقييم)"
-  },
-  {
-    "اسم": "Satin Skirt",
-    "صورة": "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=600&h=600&fit=crop",
-    "صور": [
-      "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=600&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1583496702414-c3372525c6ce?w=600&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=600&h=600&fit=crop"
-    ],
-    "سعر": "259",
-    "وصف": "جيبة ساتان أنيقة - للمناسبات ✨\n\n✅ جودة عالية\n🚚 توصيل مجاني لجميع المدن\n💵 دفع عند الاستلام",
-    "تقييم": "⭐ 4.9 (2353 تقييم)"
+    "وصف": "جينز واسع Wide Leg - ترند 2026",
+    "تقييم": "⭐ 4.8"
   },
   {
     "اسم": "Gold Necklace Set",
     "صورة": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=600&h=600&fit=crop",
     "صور": [
       "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=600&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=600&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=600&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=600&h=600&fit=crop"
+      "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=600&h=600&fit=crop&crop=top",
+      "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=600&h=600&fit=crop&crop=bottom",
+      "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=600&h=600&fit=crop&crop=center&zoom=1.2"
     ],
     "سعر": "139",
-    "وصف": "كوليه ذهبي 3 طبقات - موضة 2026 💛\n\n✅ جودة عالية\n🚚 توصيل مجاني لجميع المدن\n💵 دفع عند الاستلام",
-    "تقييم": "⭐ 4.7 (3091 تقييم)"
-  },
-  {
-    "اسم": "Yoga Leggings",
-    "صورة": "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=600&h=600&fit=crop",
-    "صور": [
-      "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=600&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=600&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=600&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1598550476439-6847785fcea6?w=600&h=600&fit=crop"
-    ],
-    "سعر": "199",
-    "وصف": "ليغينغز رياضة - خامة عالية ومريحة 🧘‍♀️\n\n✅ جودة عالية\n🚚 توصيل مجاني لجميع المدن\n💵 دفع عند الاستلام",
-    "تقييم": "⭐ 4.7 (2599 تقييم)"
+    "وصف": "كوليه ذهبي 3 طبقات - موضة 2026",
+    "تقييم": "⭐ 4.8"
   },
   {
     "اسم": "Sunglasses Retro",
     "صورة": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&h=600&fit=crop",
     "صور": [
       "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=600&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?w=600&h=600&fit=crop"
+      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&h=600&fit=crop&crop=top",
+      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&h=600&fit=crop&crop=bottom",
+      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&h=600&fit=crop&crop=center&zoom=1.2"
     ],
     "سعر": "169",
-    "وصف": "نظارات شمس ريترو - حماية UV 😎\n\n✅ جودة عالية\n🚚 توصيل مجاني لجميع المدن\n💵 دفع عند الاستلام",
-    "تقييم": "⭐ 4.6 (2968 تقييم)"
+    "وصف": "نظارات شمس ريترو - حماية UV",
+    "تقييم": "⭐ 4.8"
+  },
+  {
+    "اسم": "Satin Skirt",
+    "صورة": "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=600&h=600&fit=crop",
+    "صور": [
+      "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=600&h=600&fit=crop&crop=top",
+      "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=600&h=600&fit=crop&crop=bottom",
+      "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=600&h=600&fit=crop&crop=center&zoom=1.2"
+    ],
+    "سعر": "259",
+    "وصف": "جيبة ساتان أنيقة - للمناسبات",
+    "تقييم": "⭐ 4.8"
   }
 ]
