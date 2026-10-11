@@ -1,80 +1,107 @@
 [
   {
-    "اسم": "Chunky Cardigan - كارديجان صوف",
-    "صورة": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=600&h=600&fit=crop",
+    "اسم": "Poncho Boho Fringe - نفس اللي فالصورة",
+    "صورة": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=700&h=700&fit=crop&auto=format&v=0",
     "صور": [
-      "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=600&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=600&h=600&fit=crop&crop=top",
-      "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=600&h=600&fit=crop&crop=bottom",
-      "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=600&h=600&fit=crop&crop=center&zoom=1.2"
-    ],
-    "سعر": "289",
-    "وصف": "كارديجان صوف oversize دافئ - موضة شتاء 2026 🧶 مقاس واحد",
-    "تقييم": "⭐ 4.8"
-  },
-  {
-    "اسم": "Glow Sunset Lamp - إضاءة غروب",
-    "صورة": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=600&h=600&fit=crop",
-    "صور": [
-      "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=600&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=600&h=600&fit=crop&crop=top",
-      "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=600&h=600&fit=crop&crop=bottom",
-      "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=600&h=600&fit=crop&crop=center&zoom=1.2"
-    ],
-    "سعر": "249",
-    "وصف": "إضاءة غروب الشمس الأصلية 16 لون مع ريموت - ترند تيك توك 🔥",
-    "تقييم": "⭐ 4.8"
-  },
-  {
-    "اسم": "Wide Leg Jeans - جينز واسع",
-    "صورة": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=600&h=600&fit=crop",
-    "صور": [
-      "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=600&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=600&h=600&fit=crop&crop=top",
-      "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=600&h=600&fit=crop&crop=bottom",
-      "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=600&h=600&fit=crop&crop=center&zoom=1.2"
+      "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=700&h=700&fit=crop&auto=format&v=0",
+      "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=700&h=700&fit=crop&auto=format&v=1",
+      "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=700&h=700&fit=crop&auto=format&v=2",
+      "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=700&h=700&fit=crop&auto=format&v=3",
+      "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=700&h=700&fit=crop&auto=format&v=4",
+      "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=700&h=700&fit=crop&auto=format&v=5",
+      "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=700&h=700&fit=crop&auto=format&v=6",
+      "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=700&h=700&fit=crop&auto=format&v=7",
+      "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=700&h=700&fit=crop&auto=format&v=8",
+      "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=700&h=700&fit=crop&auto=format&v=9",
+      "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=700&h=700&fit=crop&auto=format&v=10",
+      "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=700&h=700&fit=crop&auto=format&v=11"
     ],
     "سعر": "299",
-    "وصف": "جينز واسع Wide Leg - ترند 2026",
-    "تقييم": "⭐ 4.8"
+    "وصف": "بونشو صوف بوهو مع هدب - ترند 2026",
+    "تقييم": "⭐ 4.9"
   },
   {
-    "اسم": "Gold Necklace Set",
-    "صورة": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=600&h=600&fit=crop",
+    "اسم": "Balloon Jeans Wide - جينز بالون",
+    "صورة": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=700&h=700&fit=crop&auto=format&v=0",
     "صور": [
-      "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=600&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=600&h=600&fit=crop&crop=top",
-      "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=600&h=600&fit=crop&crop=bottom",
-      "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=600&h=600&fit=crop&crop=center&zoom=1.2"
+      "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=700&h=700&fit=crop&auto=format&v=0",
+      "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=700&h=700&fit=crop&auto=format&v=1",
+      "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=700&h=700&fit=crop&auto=format&v=2",
+      "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=700&h=700&fit=crop&auto=format&v=3",
+      "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=700&h=700&fit=crop&auto=format&v=4",
+      "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=700&h=700&fit=crop&auto=format&v=5",
+      "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=700&h=700&fit=crop&auto=format&v=6",
+      "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=700&h=700&fit=crop&auto=format&v=7",
+      "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=700&h=700&fit=crop&auto=format&v=8",
+      "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=700&h=700&fit=crop&auto=format&v=9",
+      "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=700&h=700&fit=crop&auto=format&v=10",
+      "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=700&h=700&fit=crop&auto=format&v=11"
     ],
-    "سعر": "139",
-    "وصف": "كوليه ذهبي 3 طبقات - موضة 2026",
-    "تقييم": "⭐ 4.8"
+    "سعر": "349",
+    "وصف": "جينز بالون واسع - ترند تيك توك",
+    "تقييم": "⭐ 4.9"
   },
   {
-    "اسم": "Sunglasses Retro",
-    "صورة": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&h=600&fit=crop",
+    "اسم": "Sunset Lamp Pro",
+    "صورة": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=700&h=700&fit=crop&auto=format&v=0",
     "صور": [
-      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&h=600&fit=crop&crop=top",
-      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&h=600&fit=crop&crop=bottom",
-      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&h=600&fit=crop&crop=center&zoom=1.2"
+      "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=700&h=700&fit=crop&auto=format&v=0",
+      "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=700&h=700&fit=crop&auto=format&v=1",
+      "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=700&h=700&fit=crop&auto=format&v=2",
+      "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=700&h=700&fit=crop&auto=format&v=3",
+      "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=700&h=700&fit=crop&auto=format&v=4",
+      "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=700&h=700&fit=crop&auto=format&v=5",
+      "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=700&h=700&fit=crop&auto=format&v=6",
+      "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=700&h=700&fit=crop&auto=format&v=7",
+      "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=700&h=700&fit=crop&auto=format&v=8",
+      "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=700&h=700&fit=crop&auto=format&v=9",
+      "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=700&h=700&fit=crop&auto=format&v=10",
+      "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=700&h=700&fit=crop&auto=format&v=11"
     ],
-    "سعر": "169",
-    "وصف": "نظارات شمس ريترو - حماية UV",
-    "تقييم": "⭐ 4.8"
+    "سعر": "279",
+    "وصف": "إضاءة غروب الشمس 16 لون",
+    "تقييم": "⭐ 4.9"
   },
   {
     "اسم": "Satin Skirt",
-    "صورة": "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=600&h=600&fit=crop",
+    "صورة": "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=700&h=700&fit=crop&auto=format&v=0",
     "صور": [
-      "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=600&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=600&h=600&fit=crop&crop=top",
-      "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=600&h=600&fit=crop&crop=bottom",
-      "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=600&h=600&fit=crop&crop=center&zoom=1.2"
+      "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=700&h=700&fit=crop&auto=format&v=0",
+      "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=700&h=700&fit=crop&auto=format&v=1",
+      "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=700&h=700&fit=crop&auto=format&v=2",
+      "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=700&h=700&fit=crop&auto=format&v=3",
+      "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=700&h=700&fit=crop&auto=format&v=4",
+      "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=700&h=700&fit=crop&auto=format&v=5",
+      "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=700&h=700&fit=crop&auto=format&v=6",
+      "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=700&h=700&fit=crop&auto=format&v=7",
+      "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=700&h=700&fit=crop&auto=format&v=8",
+      "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=700&h=700&fit=crop&auto=format&v=9",
+      "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=700&h=700&fit=crop&auto=format&v=10",
+      "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=700&h=700&fit=crop&auto=format&v=11"
     ],
     "سعر": "259",
-    "وصف": "جيبة ساتان أنيقة - للمناسبات",
-    "تقييم": "⭐ 4.8"
+    "وصف": "جيبة ساتان أنيقة",
+    "تقييم": "⭐ 4.9"
+  },
+  {
+    "اسم": "Gold Necklace Set",
+    "صورة": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=700&h=700&fit=crop&auto=format&v=0",
+    "صور": [
+      "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=700&h=700&fit=crop&auto=format&v=0",
+      "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=700&h=700&fit=crop&auto=format&v=1",
+      "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=700&h=700&fit=crop&auto=format&v=2",
+      "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=700&h=700&fit=crop&auto=format&v=3",
+      "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=700&h=700&fit=crop&auto=format&v=4",
+      "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=700&h=700&fit=crop&auto=format&v=5",
+      "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=700&h=700&fit=crop&auto=format&v=6",
+      "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=700&h=700&fit=crop&auto=format&v=7",
+      "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=700&h=700&fit=crop&auto=format&v=8",
+      "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=700&h=700&fit=crop&auto=format&v=9",
+      "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=700&h=700&fit=crop&auto=format&v=10",
+      "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=700&h=700&fit=crop&auto=format&v=11"
+    ],
+    "سعر": "139",
+    "وصف": "كوليه ذهبي 3 طبقات",
+    "تقييم": "⭐ 4.9"
   }
 ]
