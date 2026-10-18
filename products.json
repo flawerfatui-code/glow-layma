@@ -14,41 +14,7 @@
     ],
     "سعر": "229",
     "وصف": "مكنسة يدوية 3 في 1 للسيارة والدار",
-    "تقييم": "⭐ 4.9 (2020 تقييم)"
-  },
-  {
-    "اسم": "Crystal Diamond Bulb - بولة كريستال",
-    "صورة": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=800&h=800&fit=crop&v=0&auto=format&q=80",
-    "صور": [
-      "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=800&h=800&fit=crop&v=0&auto=format&q=80",
-      "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=800&h=800&fit=crop&v=1&auto=format&q=80",
-      "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=800&h=800&fit=crop&v=2&auto=format&q=80",
-      "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=800&h=800&fit=crop&v=3&auto=format&q=80",
-      "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=800&h=800&fit=crop&v=4&auto=format&q=80",
-      "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=800&h=800&fit=crop&v=5&auto=format&q=80",
-      "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=800&h=800&fit=crop&v=6&auto=format&q=80",
-      "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=800&h=800&fit=crop&v=7&auto=format&q=80"
-    ],
-    "سعر": "199",
-    "وصف": "بولة كريستال دايموند فاخرة",
-    "تقييم": "⭐ 4.9 (2656 تقييم)"
-  },
-  {
-    "اسم": "Vintage Phone - هاتف ريترو",
-    "صورة": "https://images.unsplash.com/photo-1491933382434-500287f9b54b?w=800&h=800&fit=crop&v=0&auto=format&q=80",
-    "صور": [
-      "https://images.unsplash.com/photo-1491933382434-500287f9b54b?w=800&h=800&fit=crop&v=0&auto=format&q=80",
-      "https://images.unsplash.com/photo-1491933382434-500287f9b54b?w=800&h=800&fit=crop&v=1&auto=format&q=80",
-      "https://images.unsplash.com/photo-1491933382434-500287f9b54b?w=800&h=800&fit=crop&v=2&auto=format&q=80",
-      "https://images.unsplash.com/photo-1491933382434-500287f9b54b?w=800&h=800&fit=crop&v=3&auto=format&q=80",
-      "https://images.unsplash.com/photo-1491933382434-500287f9b54b?w=800&h=800&fit=crop&v=4&auto=format&q=80",
-      "https://images.unsplash.com/photo-1491933382434-500287f9b54b?w=800&h=800&fit=crop&v=5&auto=format&q=80",
-      "https://images.unsplash.com/photo-1491933382434-500287f9b54b?w=800&h=800&fit=crop&v=6&auto=format&q=80",
-      "https://images.unsplash.com/photo-1491933382434-500287f9b54b?w=800&h=800&fit=crop&v=7&auto=format&q=80"
-    ],
-    "سعر": "449",
-    "وصف": "هاتف ريترو للتسجيل - ديكور",
-    "تقييم": "⭐ 4.9 (3302 تقييم)"
+    "تقييم": "⭐ 4.9 (1873 تقييم)"
   },
   {
     "اسم": "Wide Leg Jeans - جينز واسع",
@@ -65,7 +31,24 @@
     ],
     "سعر": "349",
     "وصف": "جينز بالون واسع - ترند",
-    "تقييم": "⭐ 4.9 (3607 تقييم)"
+    "تقييم": "⭐ 4.9 (3654 تقييم)"
+  },
+  {
+    "اسم": "Crystal Diamond Bulb - بولة كريستال",
+    "صورة": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=800&h=800&fit=crop&v=0&auto=format&q=80",
+    "صور": [
+      "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=800&h=800&fit=crop&v=0&auto=format&q=80",
+      "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=800&h=800&fit=crop&v=1&auto=format&q=80",
+      "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=800&h=800&fit=crop&v=2&auto=format&q=80",
+      "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=800&h=800&fit=crop&v=3&auto=format&q=80",
+      "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=800&h=800&fit=crop&v=4&auto=format&q=80",
+      "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=800&h=800&fit=crop&v=5&auto=format&q=80",
+      "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=800&h=800&fit=crop&v=6&auto=format&q=80",
+      "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=800&h=800&fit=crop&v=7&auto=format&q=80"
+    ],
+    "سعر": "199",
+    "وصف": "بولة كريستال دايموند فاخرة",
+    "تقييم": "⭐ 4.9 (1888 تقييم)"
   },
   {
     "اسم": "LED Corner Shelf - رف مضيء",
@@ -82,7 +65,7 @@
     ],
     "سعر": "349",
     "وصف": "رف زاوية بإضاءة LED",
-    "تقييم": "⭐ 4.9 (1904 تقييم)"
+    "تقييم": "⭐ 4.9 (3638 تقييم)"
   },
   {
     "اسم": "Sunset Projection Lamp - إضاءة غروب الشمس",
@@ -99,7 +82,7 @@
     ],
     "سعر": "279",
     "وصف": "إضاءة غروب ترند TikTok - 16 لون",
-    "تقييم": "⭐ 4.9 (3057 تقييم)"
+    "تقييم": "⭐ 4.9 (1529 تقييم)"
   },
   {
     "اسم": "Smart Swimming Goggles - نظارات سباحة ذكية",
@@ -116,7 +99,24 @@
     ],
     "سعر": "399",
     "وصف": "نظارات سباحة بشاشة ذكية - ضد الماء",
-    "تقييم": "⭐ 4.9 (2368 تقييم)"
+    "تقييم": "⭐ 4.9 (2006 تقييم)"
+  },
+  {
+    "اسم": "Vintage Phone - هاتف ريترو",
+    "صورة": "https://images.unsplash.com/photo-1491933382434-500287f9b54b?w=800&h=800&fit=crop&v=0&auto=format&q=80",
+    "صور": [
+      "https://images.unsplash.com/photo-1491933382434-500287f9b54b?w=800&h=800&fit=crop&v=0&auto=format&q=80",
+      "https://images.unsplash.com/photo-1491933382434-500287f9b54b?w=800&h=800&fit=crop&v=1&auto=format&q=80",
+      "https://images.unsplash.com/photo-1491933382434-500287f9b54b?w=800&h=800&fit=crop&v=2&auto=format&q=80",
+      "https://images.unsplash.com/photo-1491933382434-500287f9b54b?w=800&h=800&fit=crop&v=3&auto=format&q=80",
+      "https://images.unsplash.com/photo-1491933382434-500287f9b54b?w=800&h=800&fit=crop&v=4&auto=format&q=80",
+      "https://images.unsplash.com/photo-1491933382434-500287f9b54b?w=800&h=800&fit=crop&v=5&auto=format&q=80",
+      "https://images.unsplash.com/photo-1491933382434-500287f9b54b?w=800&h=800&fit=crop&v=6&auto=format&q=80",
+      "https://images.unsplash.com/photo-1491933382434-500287f9b54b?w=800&h=800&fit=crop&v=7&auto=format&q=80"
+    ],
+    "سعر": "449",
+    "وصف": "هاتف ريترو للتسجيل - ديكور",
+    "تقييم": "⭐ 4.9 (2543 تقييم)"
   },
   {
     "اسم": "Cat Puzzle Box - لعبة القطط الذكية",
@@ -133,24 +133,7 @@
     ],
     "سعر": "159",
     "وصف": "لعبة ألغاز للقطط - الأكثر مبيعا",
-    "تقييم": "⭐ 4.9 (2066 تقييم)"
-  },
-  {
-    "اسم": "Satin Skirt - جيبة ساتان",
-    "صورة": "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=800&h=800&fit=crop&v=0&auto=format&q=80",
-    "صور": [
-      "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=800&h=800&fit=crop&v=0&auto=format&q=80",
-      "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=800&h=800&fit=crop&v=1&auto=format&q=80",
-      "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=800&h=800&fit=crop&v=2&auto=format&q=80",
-      "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=800&h=800&fit=crop&v=3&auto=format&q=80",
-      "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=800&h=800&fit=crop&v=4&auto=format&q=80",
-      "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=800&h=800&fit=crop&v=5&auto=format&q=80",
-      "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=800&h=800&fit=crop&v=6&auto=format&q=80",
-      "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=800&h=800&fit=crop&v=7&auto=format&q=80"
-    ],
-    "سعر": "259",
-    "وصف": "جيبة ساتان أنيقة - موضة 2026",
-    "تقييم": "⭐ 4.9 (4356 تقييم)"
+    "تقييم": "⭐ 4.9 (3355 تقييم)"
   },
   {
     "اسم": "Boho Poncho - بونشو بوهو",
@@ -167,6 +150,23 @@
     ],
     "سعر": "299",
     "وصف": "بونشو بوهو مع هدب - ترند 2026",
-    "تقييم": "⭐ 4.9 (3387 تقييم)"
+    "تقييم": "⭐ 4.9 (2201 تقييم)"
+  },
+  {
+    "اسم": "Satin Skirt - جيبة ساتان",
+    "صورة": "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=800&h=800&fit=crop&v=0&auto=format&q=80",
+    "صور": [
+      "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=800&h=800&fit=crop&v=0&auto=format&q=80",
+      "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=800&h=800&fit=crop&v=1&auto=format&q=80",
+      "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=800&h=800&fit=crop&v=2&auto=format&q=80",
+      "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=800&h=800&fit=crop&v=3&auto=format&q=80",
+      "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=800&h=800&fit=crop&v=4&auto=format&q=80",
+      "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=800&h=800&fit=crop&v=5&auto=format&q=80",
+      "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=800&h=800&fit=crop&v=6&auto=format&q=80",
+      "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=800&h=800&fit=crop&v=7&auto=format&q=80"
+    ],
+    "سعر": "259",
+    "وصف": "جيبة ساتان أنيقة - موضة 2026",
+    "تقييم": "⭐ 4.9 (1995 تقييم)"
   }
 ]
